@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  Pedometer
+//
+//  Created by kalpana on 26/05/19.
+//  Copyright © 2019 kalpana. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Utility.h"
+
+#endif /* PrefixHeader_pch */

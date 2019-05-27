@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB4D68DD229AA089002B03B2 /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D68DC229AA089002B03B2 /* HealthDataViewController.swift */; };
 		BB7C134E2297197D00F52831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C134D2297197D00F52831 /* AppDelegate.swift */; };
 		BB7C13502297197D00F52831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C134F2297197D00F52831 /* ViewController.swift */; };
 		BB7C13532297197D00F52831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7C13512297197D00F52831 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB4D68DC229AA089002B03B2 /* HealthDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataViewController.swift; sourceTree = "<group>"; };
+		BB4D68DE229AB049002B03B2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BB7C134A2297197D00F52831 /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7C134D2297197D00F52831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB7C134F2297197D00F52831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB4D68DB229AA06C002B03B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB4D68DC229AA089002B03B2 /* HealthDataViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		BB7C13412297197D00F52831 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +68,11 @@
 				BB7C134D2297197D00F52831 /* AppDelegate.swift */,
 				BB7C134F2297197D00F52831 /* ViewController.swift */,
 				BB7C13512297197D00F52831 /* Main.storyboard */,
+				BB4D68DB229AA06C002B03B2 /* Controllers */,
 				BB7C13542297197F00F52831 /* Assets.xcassets */,
 				BB7C13562297197F00F52831 /* LaunchScreen.storyboard */,
 				BB7C13592297197F00F52831 /* Info.plist */,
+				BB4D68DE229AB049002B03B2 /* PrefixHeader.pch */,
 			);
 			path = Pedometer;
 			sourceTree = "<group>";
@@ -135,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB4D68DD229AA089002B03B2 /* HealthDataViewController.swift in Sources */,
 				BB7C13502297197D00F52831 /* ViewController.swift in Sources */,
 				BB7C134E2297197D00F52831 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GZ2JFA6LK2;
+				DEVELOPMENT_TEAM = 96WHWJ2Q2W;
 				INFOPLIST_FILE = Pedometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GZ2JFA6LK2;
+				DEVELOPMENT_TEAM = 96WHWJ2Q2W;
 				INFOPLIST_FILE = Pedometer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
